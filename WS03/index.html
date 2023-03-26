@@ -1,26 +1,54 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head> 
     <link rel="stylesheet" href="styles/styles.css">
+    <meta charset="UTF-8">
+    <title> WS03 </title>
 <style>
+    body{
+        background-color: black;
+        color: white;
+    }
     h1 {
         color:blanchedalmond;
         font-family: Arial, Helvetica;
-        font-size: 200%;
+        font-size: 20px
     }
     p {
-        color: rgb(29, 47, 47);
-        font-size: 125%;
+        color: lightgray;
+        font-size: 12px
+    }
+    .myDiv {
+        border: 2px outset black;
+        border-style: dotted;
+        background-color: rgb(20, 35, 9);
+        text-align: center;
+        height: 100px;
+        width: 100px;
+    }
+    ol {
+        list-style-type: upper-alpha;
+    }
+    ul {
+        list-style-type: square;
     }
 </style>
 </head>
 <body>
     <h1> Tervetuloa ensimmäisille verkkosivuilleni!</h1>
-    <p> Suunnittelu on ollut erityisen hauskaa ja odotan
-        <br>
-        innolla pääseväni jatkamaan harjoittelua.
-    </p>
+    <p> Suunnittelu on ollut erityisen hauskaa ja odotan <br>
+        innolla pääseväni jatkamaan harjoittelua. </p>
     <p> Alapuolella kaksi erillistä listaa.</p>
-   
+   <ol>
+    <li> ensimmäinen </li>
+    <li> toinen </li>
+   </ol>
+   <ul> 
+    <li> yksi </li>
+    <li> kaksi </li>
+   </ul>
+   <div class="myDiv">
+<p> p inside div e </p>
+</div>
 </body>
 </html>
