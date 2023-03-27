@@ -1,0 +1,46 @@
+body {
+    background-color: rgb(42, 42, 41);
+    opacity: 0.9;
+    color: white;
+}
+h1 {
+    border-style: dashed;
+    border-radius: 6px;
+    color:blanchedalmond;
+    font-family: Arial, Helvetica;
+    font-size: 30px;
+    margin: 50px 500px 200px 400px;
+}
+p {
+    color: lightgray;
+    font-size: 12px;
+    margin: 15px 10px 80px 3px;
+}
+#lista {
+    border: 20px rgb(146, 187, 172);
+    border-style: double;
+    border-radius: 20px;
+    border-width: 2px;
+}
+.myDiv {
+    border: 2px outset black;
+    border-style: dotted;
+    background-color: rgb(20, 35, 9);
+    text-align: center;
+    height: 100px;
+    width: 100px;
+}
+ol {
+    list-style-type: upper-alpha;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 50px;
+    padding-left: 40px;
+}
+ul {
+    list-style-type: square;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 50px;
+    padding-left: 40px;
+}
