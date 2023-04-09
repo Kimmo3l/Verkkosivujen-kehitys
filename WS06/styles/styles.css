@@ -1,0 +1,117 @@
+body {
+    background-color: rgb(42, 42, 41);
+    opacity: 0.9;
+    color: white;
+}
+p {
+    color: lightgray;
+    font-size: 12px;
+    margin: 15px 10px 80px 3px;
+}
+#lista {
+    border: 20px rgb(146, 187, 172);
+    border-style: double;
+    border-radius: 20px;
+    border-width: 2px;
+}
+.myDiv {
+    border: 2px outset black;
+    border-style: dotted;
+    background-color: rgb(20, 35, 9);
+    text-align: center;
+    height: 100px;
+    width: 100px;
+    margin-left: 50px;
+}
+ol {
+    list-style-type: upper-alpha;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 50px;
+    padding-left: 40px;
+}
+ul {
+    list-style-type: square;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 50px;
+    padding-left: 40px;
+}
+#nav2 {
+    float: left;
+    margin-left: 20px;
+    background-color: rgb(246, 249, 249);
+    text-align:center;
+    width: 300px;
+    height: 300px;
+    padding-top: 100px;
+    list-style-type: none;
+}
+
+header {
+    background-color: #040404;
+    padding: 30px;
+    text-align: center;
+    font-size: 45px;
+    color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+#alue {
+    background-color: white;
+    color: black;
+    float: left;
+    text-align: left;
+    width: 76%;
+    height: 400px;
+    padding-left: 20px;
+}
+
+.wrapper {
+    display: flex;
+    background-color: rgb(126, 127, 129);
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 20px;
+  }
+  
+  .wrapper > div {
+    flex: 1;
+    text-align: center;
+  }
+
+  .wrapper a:hover {
+    color: #fa0b0b;
+  }
+
+  a:hover {
+    text-decoration: none;
+}
+
+
+  footer {
+    padding-top: 2px;
+    color: white;
+    background-color: #060606;
+    clear: left;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 50px;
+  }
+
+  #yhteystiedot {
+    font-size: 70px;
+    text-align: center;
+  }
+
+  #yhteystiedot2 {
+    font-size: 25px;
+    text-align: center;
+    list-style-type: none;
+  }
+  #etusivu {
+    text-align: center;
+    font-size: 40px;
+  }
