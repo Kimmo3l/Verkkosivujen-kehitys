@@ -1,0 +1,150 @@
+header {
+    background-color: rgb(0, 0, 0);
+    padding: 100px;
+    text-align: left;
+    font-size: 50px;
+    color: white;
+    height: 10px;
+}
+
+body {
+    background-color: rgb(52, 54, 54);
+    font-size: 1.3rem;
+    font-family: 'Muli', sans-serif;
+    color: #1E1E24
+    
+}
+.carousel-inner {
+ 
+}
+
+#ekakuva {
+    height: 500px;
+    width: 100%;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+#tokakuva {
+    height: 500px;
+    width: 100%;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+#kolmaskuva {
+    height: 500px;
+    width: 100%;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(10, 10, 10);
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  #etusivu {
+    background-color: black;
+  }
+  #liity {
+    background-color: black;
+  }
+  #yhteystiedot {
+    background-color: black;
+  }
+  .fa-instagram {
+    background: #125688;
+    color: white;
+    font-size: 50px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+    font-size: 50px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  .fa-snapchat-ghost {
+    background: #fffc00;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    font-size: 50px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+    font-size: 50px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  .section {
+    width: 100%;
+    height: 400px;
+    padding-left: 50px;
+    padding-top: 70px;
+    padding-bottom: 50px;
+    padding-right: 50px;
+    background-color: #e5f4d6;
+    columns: 3;
+    column-rule: 1px dotted ; #ccc
+    column-gap: 3em;
+  }
+  #Tervetuloa {
+    font-size: 2,5rem;
+    color: #92140c;
+
+  }
+
+  #kansikuva {
+    width: 100%;
+  }
+
+  #pääotsikko {
+    font-size: 80px;
+  }
+
+  ul {
+    list-style-type: none;
+    margin-top: 10px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 195px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #48c7d5;
+  }
+  
