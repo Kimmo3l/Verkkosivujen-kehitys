@@ -156,3 +156,39 @@ body {
     background-color: #48c7d5;
   }
   
+@media only screen and (max-width: 620px) {
+  .mainnav {
+    width: 100%;
+  }
+  
+  .mainhed {
+    width: 100%;
+      }  
+      .section {
+        column-width: 50%;
+      }
+}
+
+.taulukko {
+  padding-top: 50px;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding-bottom: 30px;
+}
+
+.section2 {
+  background-color: #e5f4d6;
+columns: 2;
+column-rule: 2px dotted #ccc;
+text-align: center;
+padding-top: 30px;
+padding-bottom: 10px;
+}
+
+.formmm {
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+  background-color: #e5f4d6;
+}
