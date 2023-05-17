@@ -44,11 +44,19 @@ body {
     bottom: 0;
     width: 100%;
     background-color: rgb(10, 10, 10);
-    color: white;
+    color: rgb(255, 255, 255);
     text-align: center;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    columns: 3;
+    column-rule: 1px dotted; 
   }
+
+  #CR {
+    padding-top: 20px;
+    color: #545310;
+  }
+
   #etusivu {
     background-color: black;
   }
@@ -140,7 +148,7 @@ body {
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 195px;
+    padding: 14px;
     text-decoration: none;
   }
   
