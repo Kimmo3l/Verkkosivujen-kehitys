@@ -192,3 +192,56 @@ padding-bottom: 10px;
   padding-bottom: 50px;
   background-color: #e5f4d6;
 }
+
+.section3 {
+  background-color: #e5f4d6;
+  text-align: center;
+  height: 800px;
+}
+#otsikko3 {
+  color: #92140c;
+  font-size: 100px;
+  padding-top: 200px;
+  padding-right: 100px;
+  float: right;
+
+}
+
+.droppi {
+  padding-left: 100px;
+  margin-inline-end: 75%
+  
+}
+
+#info {
+  columns: 1;
+  margin-inline-end: 70%;
+  padding-top: 35px;
+  padding-left: 20px;
+  font-size: 20px;
+  float: left;
+}
+
+#vatanen {
+  float: left;
+  padding-top: 100px;
+  padding-left: 30px;
+  border-radius: 50%;
+}
+
+.article {
+  background-color: rgb(243, 233, 233)
+}
+
+#hinnasto2 {
+  padding-left: 100px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.yhtotto {
+  padding-top: 50px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 50px;
+}
