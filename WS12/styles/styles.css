@@ -168,6 +168,9 @@ body {
         width: 100%;
         
       }
+      #ekakuva {
+        width: 100px;
+      }
 }
 
 @media only screen and (max-width: 380px) {
@@ -181,6 +184,9 @@ body {
       .section {
         width: 100%;
         
+      }
+      #ekakuva {
+        width: 70px;
       }
 }
 
