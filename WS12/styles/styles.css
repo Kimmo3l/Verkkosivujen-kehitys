@@ -165,13 +165,18 @@ body {
   padding-bottom: 30px;
 }
 
-@media screen and (max-width: 600px) {
-  .column {
+@media only screen and (max-width: 620px) {
+  .mainnav {
     width: 100%;
   }
-  #ekakuva {
-    width: 50%;
-  }
+  
+  .mainhed {
+    width: 100%;
+      }  
+      .section {
+        width: 100%;
+        
+      }
 }
 
 .section2 {
