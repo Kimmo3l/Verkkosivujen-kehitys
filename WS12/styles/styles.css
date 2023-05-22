@@ -112,11 +112,11 @@ body {
     padding-right: 50px;
     background-color: #e5f4d6;
     columns: 3;
-    column-rule: 1px dotted ; #ccc
+    column-rule: 1px dotted;
     column-gap: 3em;
   }
   #Tervetuloa {
-    font-size: 2,5rem;
+    font-size: 2.5rem;
     color: #92140c;
 
   }
@@ -165,7 +165,7 @@ body {
     width: 100%;
       }  
       .section {
-        column-width: 50%;
+        column-width: 200px;
       }
 }
 
