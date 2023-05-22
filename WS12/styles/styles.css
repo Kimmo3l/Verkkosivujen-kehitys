@@ -156,45 +156,22 @@ body {
     background-color: #48c7d5;
   }
   
-@media screen and (min-width: 600px) {
-  .mainnav {
-    width: 100%;
-  }
-  
-  .mainhed {
-    width: 100%;
-      }  
-      .section {
-        width: 100%;
-        
-      }
-      #ekakuva {
-        width: 100px;
-      }
-}
 
-@media screen and (min-width: 400px) {
-  .mainnav {
-    width: 100%;
-  }
-  
-  .mainhed {
-    width: 100%;
-      }  
-      .section {
-        width: 100%;
-        
-      }
-      #ekakuva {
-        width: 70px;
-      }
-}
 
 .taulukko {
   padding-top: 50px;
   margin-left: 100px;
   margin-right: 100px;
   padding-bottom: 30px;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+  #ekakuva {
+    width: 50%;
+  }
 }
 
 .section2 {
